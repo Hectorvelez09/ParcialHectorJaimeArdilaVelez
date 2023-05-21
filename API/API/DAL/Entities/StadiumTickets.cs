@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ParcialHectorJaimeArdilaVelez.DAL.Entities
+namespace API.DAL.Entities
 {
     public class StadiumTickets 
     {

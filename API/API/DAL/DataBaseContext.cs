@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ParcialHectorJaimeArdilaVelez.DAL.Entities;
+using API.DAL.Entities;
 
-namespace ParcialHectorJaimeArdilaVelez.DAL
+namespace API.DAL
 {
     public class DataBaseContext : DbContext
     {
