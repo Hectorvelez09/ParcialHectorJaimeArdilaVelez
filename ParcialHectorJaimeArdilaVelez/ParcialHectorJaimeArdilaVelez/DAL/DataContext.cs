@@ -7,6 +7,7 @@ namespace ParcialHectorJaimeArdilaVelez.DAL
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
+
         }
 
         public DbSet<EntranceGate> EntranceGates { get; set; }
