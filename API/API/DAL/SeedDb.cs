@@ -1,8 +1,8 @@
-﻿using System.Diagnostics.Metrics;
+﻿using API.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace ParcialHectorJaimeArdilaVelez.DAL.Entities
+namespace API.DAL
 {
     public class SeedDb
     {

@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using API.DAL;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ParcialHectorJaimeArdilaVelez.DAL;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
 
-
-namespace ParcialHectorJaimeArdilaVelez.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

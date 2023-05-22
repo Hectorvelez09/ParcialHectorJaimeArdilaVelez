@@ -3,9 +3,9 @@ using ParcialHectorJaimeArdilaVelez.DAL.Entities;
 
 namespace ParcialHectorJaimeArdilaVelez.DAL
 {
-    public class DataContext : DbContext
+    public class DataBaseContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
 
         }
