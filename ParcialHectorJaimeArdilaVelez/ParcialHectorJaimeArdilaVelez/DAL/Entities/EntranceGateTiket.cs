@@ -2,15 +2,11 @@
 
 namespace ParcialHectorJaimeArdilaVelez.DAL.Entities
 {
-    public class StadiumTickets 
+    public class EntranceGateTiket
     {
-        [Key]
-        public Guid Id { get; set; }
-        public DateTime? UseDate { get; set; }
-        public bool IsUsed { get; set; }
-        public string EntranceGate { get; set; }
-
-        public ICollection<Entrance> Entrance { get; set; }
-
+        public Guid TicketId { get; set; }
+        public Guid EntranceGateId { get; set; }
+        public Tiket Tiket { get; set; }
+        public EntranceGate EntranceGate { get; set; }
     }
 }
